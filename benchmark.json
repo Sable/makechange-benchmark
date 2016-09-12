@@ -1,0 +1,17 @@
+{
+   "type": "benchmark",
+   "name":"Make change",
+   "short-name":"makechange",
+   "description":"Compute the ways to make change for a given amount using dynamic programming",
+   "version":"1.0.0",
+   "input-size":{
+      "small":10,
+      "medium":2000,
+      "large": 10000
+   },
+   "expected-output": {
+      "small": 1103021,
+      "medium": 1103021,
+      "large": 1103021
+   }
+}
